@@ -509,8 +509,8 @@ hottest <- daily_tmp_reg_italy %>%
 
 print(hottest)
 
-coolest <- daily_tmp_reg_italy %>%
+coldest <- daily_tmp_reg_italy %>%
   filter(t2m == min(t2m, na.rm = TRUE)) %>%
   dplyr::select(date, t2m, DEN_REG)
 
-print(coolest)
+print(coldest)

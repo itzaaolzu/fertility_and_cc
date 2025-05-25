@@ -428,8 +428,10 @@ ggplot(tmp_n_br, aes(x = t2m, y = WBR)) +
   theme_minimal()
 
 # Exercise 2:  How hot was Italy in 2022?
-# - Calculate and explore average monthly temperatures across Italian regions
+# - Calculate and explore the daily temperatures across Italian regions
 # in 2022 using high-resolution climate raster data and official regional boundaries.
+# - Answer the next question: 
+# When and where was the hottest and coldest day in 2022?
 
 spdf_r <- st_read("Reg01012022_g_WGS84.shp")
 
